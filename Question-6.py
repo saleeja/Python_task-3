@@ -7,16 +7,6 @@ Fibonacci series upto 6:
 [0, 1, 1, 2, 3, 5]
 """
 
-def fibonacci(n):
-    """Generates the Fibonacci series up to n using lambda functions.
-
-    Args:
-        n (int): The number of terms in the Fibonacci series.
-
-    Returns:
-        list: The Fibonacci series up to n.
-    """
-
 # Import the 'reduce' function from the 'functools' module
 from functools import reduce
 
