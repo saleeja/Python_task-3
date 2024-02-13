@@ -2,12 +2,12 @@
 
 # Lambda function to add 15 to a given number
 add =lambda x: x+15
-# Lambda function to multiply two arguments x and y
-multiply = lambda x, y: x * y
-
 number=int(input("Enter a Number:"))
 result_add= add(number)
 print(result_add)
+
+# Lambda function to multiply two arguments x and y
+multiply = lambda x, y: x * y
 
 number1=int(input("Enter a Number:"))
 number2=int(input("Enter a Number:"))
